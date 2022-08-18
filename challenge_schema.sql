@@ -27,3 +27,8 @@ CREATE TABLE vine_table (
   vine TEXT,
   verified_purchase TEXT
 );
+
+SELECT * from customers_table;
+SELECT * from products_table;
+SELECT * from review_id_table;
+SELECT * from vine_table;
