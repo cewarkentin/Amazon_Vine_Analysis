@@ -4,26 +4,19 @@ The Amazon Vine program is a service that allows manufacturers and publishers to
 
 Looking at data for items labeled as "musical instruments" sold on Amazon, we determined if there was any bias toward favorable reviews from Vine members within dataset.
 
-## Purpose
-
 ## Results
 
-There is a bulleted list that addresses the three questions for unpaid and paid program reviews
-
-- How many Vine reviews and non-Vine reviews were there?
-- How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-- What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-
-determine if there is any bias towards reviews that were written as part of the Vine program. For this analysis, you'll determine if having a paid Vine review makes a difference in the percentage of 5-star reviews
+Below are the results comparing item reviews based on whether or not the reviews were completed by Amazon Vine members.
 
 ![paid_summary](https://github.com/cewarkentin/Amazon_Vine_Analysis/blob/main/paid_summary.png)
-
 ![unpaid_summary](https://github.com/cewarkentin/Amazon_Vine_Analysis/blob/main/unpaid_summary.png)
 
-#Summary
+- For items labeled as "musical instruments" sold on Amazon, there were 60 reviews from Amazon Vine members and 14,477 reviews from non-Vine members.
+- From the reviews by Amazon Vine members, 34 reviews were 5-star reviews. From the reviews by non-Vine members, 8,212 reviews were 5-star reviews.
+- 56.67% of Amazon Vine members gave 5-star reviews for the items labeled as "musical instruments" sold on Amazon. 56.72% of non-Vine members gave 5-star reviews for the items labeled as "musical instruments" sold on Amazon. 
 
-The summary states whether or not there is bias, and the results support this statement
+## Summary
 
-An additional analysis is recommended to support the statement
+There is not any positivity bias for reviews from members of the Amazon Vine program-- for the selected data, 56.67% of reviews from Vine members gave 5-stars, which is close to the 56.72% 5-star reviews from non-Vine members.
 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+It would be interesting to compare the Vine reviews versus non-Vine reviews for each star level to see if the average star scores for the products illustrate any bias (i.e. Amazon Vine members are more likely to give reviews with a higher overall average score compared to non-Vine members).
